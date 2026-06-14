@@ -1,0 +1,2193 @@
+{
+  "WBS_Budget_DOMITA_items.xlsx": {
+    "WBS_Budget_DOMITA_items.csv": [
+      {
+        "WBS": "01:01:01",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": 879172104.0,
+        "Descrizione": "FILTER Fuel (secondario/engine)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "1 day, 19:32:00",
+        "Totale riga (€)": "3 days, 14:24:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:02",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": "8M0214514",
+        "Descrizione": "BELT - SERPENTINE (cinghia servizi)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "1 day, 13:26:00",
+        "Totale riga (€)": "3 days, 2:12:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:03",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": 895207.0,
+        "Descrizione": "FILTER ELEMENT (olio)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "1 day, 7:11:00",
+        "Totale riga (€)": "2 days, 14:22:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:04",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": "8M0056956",
+        "Descrizione": "IMPELLER (girante pompa acqua mare)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "4 days, 8:13:00",
+        "Totale riga (€)": "8 days, 16:26:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:05",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": 898272048.0,
+        "Descrizione": "ELEMENT Foam (pre-filtro aria)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "10:25:00",
+        "Totale riga (€)": "20.5",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:06",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": "8M0151541",
+        "Descrizione": "ANODE - ZINC (motore)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "11:12:00",
+        "Totale riga (€)": "22:24:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:07",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": "809868T",
+        "Descrizione": "ELEMENT (filtro aria)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "15:14:00",
+        "Totale riga (€)": "1 day, 6:28:00",
+        "Note": null
+      },
+      {
+        "WBS": "03:01:01",
+        "Tipo": "Acquisto",
+        "Categoria": "Transom/Piedi",
+        "Codice": "888761Q04",
+        "Descrizione": "ANODE KIT (kit anodi transom/motore)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "3 days, 3:33:00",
+        "Totale riga (€)": "6 days, 7:06:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:08",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": "16755Q1",
+        "Descrizione": "SEAL (guarnizione coperchio pompa)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "08:29:00",
+        "Totale riga (€)": "16:18:00",
+        "Note": null
+      },
+      {
+        "WBS": "02:01:01",
+        "Tipo": "Acquisto",
+        "Categoria": "Piedi",
+        "Codice": "8M0207031",
+        "Descrizione": "GEARLUBE HP 1L (olio piede High-Perf)",
+        "Q.tà": 7.0,
+        "Prezzo unit. (€)": "1 day, 2:06:00",
+        "Totale riga (€)": "7 days, 14:42:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:09",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": "858042QB1",
+        "Descrizione": "DIESEL OIL 4L (5W-40 ACEA A3/B4)",
+        "Q.tà": 6.0,
+        "Prezzo unit. (€)": "1 day, 7:01:00",
+        "Totale riga (€)": "7 days, 18:06:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:01:10",
+        "Tipo": "Acquisto",
+        "Categoria": "Motori",
+        "Codice": "8M0217749",
+        "Descrizione": "BELT - SERPENTINE (spare)",
+        "Q.tà": 1.0,
+        "Prezzo unit. (€)": "1 day, 0:38:00",
+        "Totale riga (€)": "1 day, 0:38:00",
+        "Note": null
+      },
+      {
+        "WBS": "01:02:01",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Motori",
+        "Codice": "-",
+        "Descrizione": "Olio motore extra 5W-40 (per arrivare a ~27,6–28 L totali)",
+        "Q.tà": 1.0,
+        "Prezzo unit. (€)": "50.0",
+        "Totale riga (€)": "50.0",
+        "Note": "4 L can"
+      },
+      {
+        "WBS": "01:02:02",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Motori",
+        "Codice": "-",
+        "Descrizione": "Refrigerante OAT premiscelato pronto (1 L)",
+        "Q.tà": 36.0,
+        "Prezzo unit. (€)": "9.0",
+        "Totale riga (€)": "324.0",
+        "Note": "≈18 L per motore"
+      },
+      {
+        "WBS": "01:02:03",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Motori",
+        "Codice": "-",
+        "Descrizione": "Termostato QSD 4.2 / VM MR706",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "60.0",
+        "Totale riga (€)": "120.0",
+        "Note": "Sostituzione preventiva"
+      },
+      {
+        "WBS": "01:02:04",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Motori",
+        "Codice": "-",
+        "Descrizione": "Rondella/O-ring tappo scarico olio motore",
+        "Q.tà": 4.0,
+        "Prezzo unit. (€)": "2.0",
+        "Totale riga (€)": "8.0",
+        "Note": "Nuove ad ogni cambio"
+      },
+      {
+        "WBS": "01:02:05",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Motori",
+        "Codice": "-",
+        "Descrizione": "Elemento filtro primario gasolio (tipo Racor 10–30µ)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "18.0",
+        "Totale riga (€)": "36.0",
+        "Note": "Se non incluso nel 879172104"
+      },
+      {
+        "WBS": "01:02:06",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Motori",
+        "Codice": "-",
+        "Descrizione": "O-ring/bicchiere filtro primario gasolio",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "6.0",
+        "Totale riga (€)": "12.0",
+        "Note": "Kit guarnizioni"
+      },
+      {
+        "WBS": "01:02:07",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Motori",
+        "Codice": "-",
+        "Descrizione": "Kit revisione pompa acqua mare (piastra/cover/O-ring)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "45.0",
+        "Totale riga (€)": "90.0",
+        "Note": "Best practice"
+      },
+      {
+        "WBS": "02:02:01",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Piedi",
+        "Codice": "-",
+        "Descrizione": "Rondelle rame tappi drain/vent olio piede (Bravo 3)",
+        "Q.tà": 4.0,
+        "Prezzo unit. (€)": "2.0",
+        "Totale riga (€)": "8.0",
+        "Note": "2 per piede"
+      },
+      {
+        "WBS": "09:09:01",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Piedi/Transom",
+        "Codice": "-",
+        "Descrizione": "Grasso 2-4-C (tubo 227 g)",
+        "Q.tà": 1.0,
+        "Prezzo unit. (€)": "15.0",
+        "Totale riga (€)": "15.0",
+        "Note": "Ingrassaggi vari"
+      },
+      {
+        "WBS": "09:09:02",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Piedi/Transom",
+        "Codice": "-",
+        "Descrizione": "Fluido Power Trim/Steering (1 L)",
+        "Q.tà": 1.0,
+        "Prezzo unit. (€)": "15.0",
+        "Totale riga (€)": "15.0",
+        "Note": "Rabbocchi impianto"
+      },
+      {
+        "WBS": "02:02:02",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Piedi",
+        "Codice": "-",
+        "Descrizione": "Kit anodi Bravo 3 completo (drive)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "120.0",
+        "Totale riga (€)": "240.0",
+        "Note": "Verifica overlap con 888761Q04"
+      },
+      {
+        "WBS": "03:02:01",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Transom",
+        "Codice": "-",
+        "Descrizione": "Kit soffietti transom (u-joint, scarico, cambio)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "190.0",
+        "Totale riga (€)": "380.0",
+        "Note": "Manutenzione 5 anni"
+      },
+      {
+        "WBS": "03:02:02",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Transom",
+        "Codice": "-",
+        "Descrizione": "Cuscinetto gimbal",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "95.0",
+        "Totale riga (€)": "190.0",
+        "Note": "Sostituzione se rumoroso/usurato"
+      },
+      {
+        "WBS": "03:02:03",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Transom",
+        "Codice": "-",
+        "Descrizione": "Kit cavo cambio + guarnizioni passaggio",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "80.0",
+        "Totale riga (€)": "160.0",
+        "Note": "Se indurito/crepato"
+      },
+      {
+        "WBS": "02:02:03",
+        "Tipo": "Mancante (stima)",
+        "Categoria": "Piedi",
+        "Codice": "-",
+        "Descrizione": "Kit sensori trim (sender + limit)",
+        "Q.tà": 2.0,
+        "Prezzo unit. (€)": "120.0",
+        "Totale riga (€)": "240.0",
+        "Note": "Se malfunzionanti"
+      }
+    ]
+  },
+  "WBS_Sintesi_DOMITA.xlsx": {
+    "WBS & Budget": [
+      {
+        "WBS": "1",
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget_Suggerito": 2580.0,
+        "Contingenza_pct": 15.0,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": 2967.0
+      },
+      {
+        "WBS": "1.1",
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.1 Tagliando Reset, 2 motori)",
+        "Priorità": "MUST",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": 693.34,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "1.2",
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.2 Raffreddamento: termostati, coolant, tubi, fascette",
+        "Priorità": "MUST",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": 444.0,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "1.3",
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.3 Scambiatori/Aftercooler: guarnizioni, lavaggio chimico",
+        "Priorità": "MUST",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "1.4",
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.4 Carburante: prefiltro/testa Racor, filtri fini, tubi gasolio",
+        "Priorità": "MUST",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": 133.84,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "1.5",
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.5 Aria/Turbo: pulizia/verifica, eventuale revisione",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "1.6",
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.6 Elettrico: cinghia, tenditore, alternatore, avviamento",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": 98.1,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "1.7",
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.7 Verniciatura motori (primer/bianco/trasparente)",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "2",
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": null,
+        "Priorità": "OPZ",
+        "Budget_Suggerito": 0.0,
+        "Contingenza_pct": 10.0,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": 0.0
+      },
+      {
+        "WBS": "2.1",
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": "2.1 Olio piede + rondelle (x2)",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": 581.0799999999999,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "2.2",
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": "2.2 Soffietti/cavo cambio/gimbal (se necessario)",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": 760.0,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "2.3",
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": "2.3 Sensori trim / paraoli (se necessario)",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": 240.0,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "2.4",
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": "2.4 Verniciatura piede + antivegetativa drive (se in acqua)",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "3",
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget_Suggerito": 780.0,
+        "Contingenza_pct": 10.0,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": 858.0
+      },
+      {
+        "WBS": "3.1",
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": "3.1 Batterie/cavi/staccabatterie (se usurati)",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "3.2",
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": "3.2 Pompa sentina / doccia / acqua dolce",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "3.3",
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": "3.3 Flap: olio ATF Bennett, anodi flap",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": null
+      },
+      {
+        "WBS": "3.4",
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": "3.4 Timoneria / idroguida (controlli e olio)",
+        "Priorità": "NICE",
+        "Budget_Suggerito": null,
+        "Contingenza_pct": null,
+        "Preventivo_fornitore": null,
+        "Budget_plus_cont": null
+      }
+    ]
+  },
+  "plan_domita_WBS_fornitori.xlsx": {
+    "HOME": [
+      {
+        "DOM.ITA": "Budget totale (€)",
+        "Unnamed: 1": 6000.0
+      },
+      {
+        "DOM.ITA": "Speso totale (€)",
+        "Unnamed: 1": 6000.0
+      },
+      {
+        "DOM.ITA": "Scostamento totale (€)",
+        "Unnamed: 1": null
+      },
+      {
+        "DOM.ITA": "% avanzamento medio",
+        "Unnamed: 1": 6000.0
+      },
+      {
+        "DOM.ITA": 0.0,
+        "Unnamed: 1": null
+      }
+    ],
+    "INPUT": [
+      {
+        "Parametro": "Budget totale (€)",
+        "Unnamed: 1": 6000.0
+      },
+      {
+        "Parametro": "Data inizio progetto",
+        "Unnamed: 1": "2025-11-01 00:00:00"
+      },
+      {
+        "Parametro": "Data fine progetto",
+        "Unnamed: 1": "2026-06-30 00:00:00"
+      },
+      {
+        "Parametro": "Stati consentiti",
+        "Unnamed: 1": "ToDo"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "InCorso"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Sospeso"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fatto"
+      },
+      {
+        "Parametro": "Responsabili",
+        "Unnamed: 1": "Luca Di Rienzo"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Massimo Canavvacciuolo"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Luigi Scipione"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Bruzzone"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "La Rocca"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Tappezziere"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Elettricista"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Secondo elettricista"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 1 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 2 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 3 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 4 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 4 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 4 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 4 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 4 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 4 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 4 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "Fornitore 4 nautica"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      },
+      {
+        "Parametro": null,
+        "Unnamed: 1": "DA INSERIRE"
+      }
+    ],
+    "Parametri PRO": [
+      {
+        "Parametro": "Scenario",
+        "Valore": "PRO",
+        "Note": "Modificabile"
+      },
+      {
+        "Parametro": "Obiettivo entro Giugno 2026 (€)",
+        "Valore": 6000.0,
+        "Note": "Puoi aumentare/diminuire il target"
+      },
+      {
+        "Parametro": "Cassa già accantonata oggi (€)",
+        "Valore": 0.0,
+        "Note": "Inserisci eventuale cassa esistente"
+      },
+      {
+        "Parametro": "Mensile calcolato (€)",
+        "Valore": 750.0,
+        "Note": "Ricalcola dividendo il target per i mesi residui"
+      }
+    ],
+    "Mensile": [
+      {
+        "Mese": "2025-11",
+        "Accantonamento target (€)": 3000.0,
+        "Accantonato (€)": 0.0,
+        "Delta (€)": -3000.0
+      },
+      {
+        "Mese": "2025-12",
+        "Accantonamento target (€)": 3000.0,
+        "Accantonato (€)": 0.0,
+        "Delta (€)": -3000.0
+      },
+      {
+        "Mese": "2026-01",
+        "Accantonamento target (€)": 3000.0,
+        "Accantonato (€)": 0.0,
+        "Delta (€)": -3000.0
+      },
+      {
+        "Mese": "2026-02",
+        "Accantonamento target (€)": 3000.0,
+        "Accantonato (€)": 0.0,
+        "Delta (€)": -3000.0
+      },
+      {
+        "Mese": "2026-03",
+        "Accantonamento target (€)": 3000.0,
+        "Accantonato (€)": 0.0,
+        "Delta (€)": -3000.0
+      },
+      {
+        "Mese": "2026-04",
+        "Accantonamento target (€)": 3000.0,
+        "Accantonato (€)": 0.0,
+        "Delta (€)": -3000.0
+      },
+      {
+        "Mese": "2026-05",
+        "Accantonamento target (€)": 3000.0,
+        "Accantonato (€)": 0.0,
+        "Delta (€)": -3000.0
+      },
+      {
+        "Mese": "2026-06",
+        "Accantonamento target (€)": 3000.0,
+        "Accantonato (€)": 0.0,
+        "Delta (€)": -3000.0
+      }
+    ],
+    "Buste": [
+      {
+        "Categoria": "Motori/Refit",
+        "Percentuale": 0.55
+      },
+      {
+        "Categoria": "Manutenzione/Ormeggio",
+        "Percentuale": 0.15
+      },
+      {
+        "Categoria": "Assicurazioni/Bollo",
+        "Percentuale": 0.1
+      },
+      {
+        "Categoria": "Fondo emergenze (+20%)",
+        "Percentuale": 0.15
+      },
+      {
+        "Categoria": "Extra/Piccoli upgrade",
+        "Percentuale": 0.05
+      }
+    ],
+    "Allocazione mensile": [
+      {
+        "Mese": "2025-11",
+        "Motori/Refit": 1650.0,
+        "Manutenzione/Ormeggio": 450.0,
+        "Assicurazioni/Bollo": 300.0,
+        "Fondo emergenze (+20%)": 450.0,
+        "Extra/Piccoli upgrade": 150.0
+      },
+      {
+        "Mese": "2025-12",
+        "Motori/Refit": 1650.0,
+        "Manutenzione/Ormeggio": 450.0,
+        "Assicurazioni/Bollo": 300.0,
+        "Fondo emergenze (+20%)": 450.0,
+        "Extra/Piccoli upgrade": 150.0
+      },
+      {
+        "Mese": "2026-01",
+        "Motori/Refit": 1650.0,
+        "Manutenzione/Ormeggio": 450.0,
+        "Assicurazioni/Bollo": 300.0,
+        "Fondo emergenze (+20%)": 450.0,
+        "Extra/Piccoli upgrade": 150.0
+      },
+      {
+        "Mese": "2026-02",
+        "Motori/Refit": 1650.0,
+        "Manutenzione/Ormeggio": 450.0,
+        "Assicurazioni/Bollo": 300.0,
+        "Fondo emergenze (+20%)": 450.0,
+        "Extra/Piccoli upgrade": 150.0
+      },
+      {
+        "Mese": "2026-03",
+        "Motori/Refit": 1650.0,
+        "Manutenzione/Ormeggio": 450.0,
+        "Assicurazioni/Bollo": 300.0,
+        "Fondo emergenze (+20%)": 450.0,
+        "Extra/Piccoli upgrade": 150.0
+      },
+      {
+        "Mese": "2026-04",
+        "Motori/Refit": 1650.0,
+        "Manutenzione/Ormeggio": 450.0,
+        "Assicurazioni/Bollo": 300.0,
+        "Fondo emergenze (+20%)": 450.0,
+        "Extra/Piccoli upgrade": 150.0
+      },
+      {
+        "Mese": "2026-05",
+        "Motori/Refit": 1650.0,
+        "Manutenzione/Ormeggio": 450.0,
+        "Assicurazioni/Bollo": 300.0,
+        "Fondo emergenze (+20%)": 450.0,
+        "Extra/Piccoli upgrade": 150.0
+      },
+      {
+        "Mese": "2026-06",
+        "Motori/Refit": 1650.0,
+        "Manutenzione/Ormeggio": 450.0,
+        "Assicurazioni/Bollo": 300.0,
+        "Fondo emergenze (+20%)": 450.0,
+        "Extra/Piccoli upgrade": 150.0
+      }
+    ],
+    "WBS & Budget": [
+      {
+        "WBS": 1.0,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 2580.0,
+        "Contingenza %": 15.0,
+        "Budget+Cont (€)": 2967.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 1.1,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.1 Tagliando annuale (kit 100h, 2 motori)",
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": "Concessionario Mercury/Quicksilver (da Pick List)",
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 1.2,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.2 Raffreddamento: termostati, coolant, tubi, fascette",
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 1.3,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.3 Scambiatori/Aftercooler: guarnizioni, lavaggio chimico",
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 1.4,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.4 Carburante: prefiltro/testa Racor, filtri fini, tubi gasolio",
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": "Parker RACOR (dealer da indicare)",
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 1.5,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.5 Aria/Turbo: pulizia/verifica, eventuale revisione",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 1.6,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.6 Elettrico: cinghia, tenditore, alternatore, avviamento",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 1.7,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": "1.7 Verniciatura motori (primer/bianco/trasparente)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 2.0,
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": null,
+        "Priorità": "OPZ",
+        "Budget Suggerito (€)": 0.0,
+        "Contingenza %": 10.0,
+        "Budget+Cont (€)": 0.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 2.1,
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": "2.1 Olio piede + rondelle (x2)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": "Concessionario Mercury/Quicksilver (da Pick List)",
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 2.2,
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": "2.2 Soffietti/cavo cambio/gimbal (se necessario)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": "Concessionario Mercury/Quicksilver (da Pick List)",
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 2.3,
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": "2.3 Sensori trim / paraoli (se necessario)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": "Concessionario Mercury/Quicksilver (da Pick List)",
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 2.4,
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": "2.4 Verniciatura piede + antivegetativa drive (se in acqua)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 3.0,
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 780.0,
+        "Contingenza %": 10.0,
+        "Budget+Cont (€)": 858.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 3.1,
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": "3.1 Batterie/cavi/staccabatterie (se usurati)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 3.2,
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": "3.2 Pompa sentina / doccia / acqua dolce",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 3.3,
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": "3.3 Flap: olio ATF Bennett, anodi flap",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 3.4,
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": "3.4 Timoneria / idroguida (controlli e olio)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 4.0,
+        "MacroCategoria": "4. Scafo / Carena / Anodi",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 300.0,
+        "Contingenza %": 10.0,
+        "Budget+Cont (€)": 330.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 4.1,
+        "MacroCategoria": "4. Scafo / Carena / Anodi",
+        "Sotto-Motivo": "4.1 Antivegetativa carena (materiali)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 4.2,
+        "MacroCategoria": "4. Scafo / Carena / Anodi",
+        "Sotto-Motivo": "4.2 Kit anodi Bravo 3X (x2)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 4.3,
+        "MacroCategoria": "4. Scafo / Carena / Anodi",
+        "Sotto-Motivo": "4.3 Pencil anodes motore (x2 set)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 5.0,
+        "MacroCategoria": "5. Sicurezza e dotazioni",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 180.0,
+        "Contingenza %": 10.0,
+        "Budget+Cont (€)": 198.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 5.1,
+        "MacroCategoria": "5. Sicurezza e dotazioni",
+        "Sotto-Motivo": "5.1 Estintori / segnalazioni / giubbotti",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 5.2,
+        "MacroCategoria": "5. Sicurezza e dotazioni",
+        "Sotto-Motivo": "5.2 Razzi / zattera (se in scadenza)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 6.0,
+        "MacroCategoria": "6. Ormeggio & Logistica",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 300.0,
+        "Contingenza %": 10.0,
+        "Budget+Cont (€)": 330.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 6.1,
+        "MacroCategoria": "6. Ormeggio & Logistica",
+        "Sotto-Motivo": "6.1 Alaggio/varo / sosta cantiere",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 6.2,
+        "MacroCategoria": "6. Ormeggio & Logistica",
+        "Sotto-Motivo": "6.2 Trasporti / consegne / imballi",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 7.0,
+        "MacroCategoria": "7. Assicurazioni / Bolli",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 420.0,
+        "Contingenza %": 10.0,
+        "Budget+Cont (€)": 462.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 7.1,
+        "MacroCategoria": "7. Assicurazioni / Bolli",
+        "Sotto-Motivo": "7.1 Polizze natante / RC / kasko ormeggio",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 7.2,
+        "MacroCategoria": "7. Assicurazioni / Bolli",
+        "Sotto-Motivo": "7.2 Tassa di possesso / registri",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 8.0,
+        "MacroCategoria": "8. Manodopera / Officina",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 420.0,
+        "Contingenza %": 10.0,
+        "Budget+Cont (€)": 462.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 8.1,
+        "MacroCategoria": "8. Manodopera / Officina",
+        "Sotto-Motivo": "8.1 Ore meccanico / elettrauto",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 8.2,
+        "MacroCategoria": "8. Manodopera / Officina",
+        "Sotto-Motivo": "8.2 Rettifica / service specialisti (se usati)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 9.0,
+        "MacroCategoria": "9. Buffer imprevisti (contingency)",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 420.0,
+        "Contingenza %": 20.0,
+        "Budget+Cont (€)": 504.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 9.1,
+        "MacroCategoria": "9. Buffer imprevisti (contingency)",
+        "Sotto-Motivo": "9.1 Riserva imprevisti tecnici",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 9.2,
+        "MacroCategoria": "9. Buffer imprevisti (contingency)",
+        "Sotto-Motivo": "9.2 Variazione prezzi fornitori",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 10.0,
+        "MacroCategoria": "10. Extra / Upgrade estetici",
+        "Sotto-Motivo": null,
+        "Priorità": "OPZ",
+        "Budget Suggerito (€)": 0.0,
+        "Contingenza %": 10.0,
+        "Budget+Cont (€)": 0.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 10.1,
+        "MacroCategoria": "10. Extra / Upgrade estetici",
+        "Sotto-Motivo": "10.1 Cornice + sportello frigo poppa",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 10.2,
+        "MacroCategoria": "10. Extra / Upgrade estetici",
+        "Sotto-Motivo": "10.2 Luci / inox minori / finiture",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.0,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": null,
+        "Priorità": "MUST",
+        "Budget Suggerito (€)": 600.0,
+        "Contingenza %": 15.0,
+        "Budget+Cont (€)": 690.0,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.1,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.1 Preparazione superfici (sverniciatura/sabbiatura leggera, sgrassaggio)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.2,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.2 Ripristini VTR/Gelcoat (stuccature/laminazioni, primer epossidico)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.3,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.3 Verniciatura scafo/coperta (epossidico + poliuretanico, colori RAL)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.4,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.4 Antiscivolo coperta (vernice antiskid o EVA foam)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.5,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.5 Lucidatura/ceramic coat",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.6,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.6 Decal/lettering/nome barca",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.7,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.7 Wrapping 3M (pellicole) parti selezionate",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.8,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.8 Vetrate/plexi e guarnizioni",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.9,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.9 Accessori inox/ri-sigillature (Sikaflex/butile)",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.1,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": "11.10 Smontaggi/rimontaggi accessori",
+        "Priorità": "NICE",
+        "Budget Suggerito (€)": null,
+        "Contingenza %": null,
+        "Budget+Cont (€)": null,
+        "Preventivo fornitore (€)": null,
+        "Fornitore": null,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": null,
+        "Stato": "ToDo",
+        "Responsabile": null,
+        "Scadenza": null,
+        "Note/Link": null
+      }
+    ],
+    "Riepilogo WBS": [
+      {
+        "MacroCategoria": "1. Motori / Refit",
+        "Budget Suggerito (€)": 10320.0,
+        "Budget+Cont (€)": 11868.0,
+        "Priorità": "MUST"
+      },
+      {
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Budget Suggerito (€)": 0.0,
+        "Budget+Cont (€)": 0.0,
+        "Priorità": "OPZ"
+      },
+      {
+        "MacroCategoria": "3. Impianti di bordo",
+        "Budget Suggerito (€)": 3120.0,
+        "Budget+Cont (€)": 3432.0,
+        "Priorità": "MUST"
+      },
+      {
+        "MacroCategoria": "4. Scafo / Carena / Anodi",
+        "Budget Suggerito (€)": 1200.0,
+        "Budget+Cont (€)": 1320.0,
+        "Priorità": "MUST"
+      },
+      {
+        "MacroCategoria": "5. Sicurezza e dotazioni",
+        "Budget Suggerito (€)": 720.0,
+        "Budget+Cont (€)": 792.0,
+        "Priorità": "MUST"
+      },
+      {
+        "MacroCategoria": "6. Ormeggio & Logistica",
+        "Budget Suggerito (€)": 1200.0,
+        "Budget+Cont (€)": 1320.0,
+        "Priorità": "MUST"
+      },
+      {
+        "MacroCategoria": "7. Assicurazioni / Bolli",
+        "Budget Suggerito (€)": 1680.0,
+        "Budget+Cont (€)": 1848.0,
+        "Priorità": "MUST"
+      },
+      {
+        "MacroCategoria": "8. Manodopera / Officina",
+        "Budget Suggerito (€)": 1680.0,
+        "Budget+Cont (€)": 1848.0,
+        "Priorità": "MUST"
+      },
+      {
+        "MacroCategoria": "9. Buffer imprevisti (contingency)",
+        "Budget Suggerito (€)": 1680.0,
+        "Budget+Cont (€)": 2016.0,
+        "Priorità": "MUST"
+      },
+      {
+        "MacroCategoria": "10. Extra / Upgrade estetici",
+        "Budget Suggerito (€)": 0.0,
+        "Budget+Cont (€)": 0.0,
+        "Priorità": "OPZ"
+      },
+      {
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Budget Suggerito (€)": 2400.0,
+        "Budget+Cont (€)": 2760.0,
+        "Priorità": "MUST"
+      }
+    ],
+    "Cronoprogramma": [
+      {
+        "WBS": 1.0,
+        "MacroCategoria": "1. Motori / Refit",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Massimo Cannavacciuolo",
+        "Stato": "ToDo",
+        "% Avanz.": 1.0,
+        "Costo Pianificato (€)": 2580.0,
+        "Costo Effettivo (€)": 300.0,
+        "Scostamento (€)": 2280.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 2.0,
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Massimo Cannavacciuolo",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 0.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 0.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 3.0,
+        "MacroCategoria": "3. Impianti di bordo",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Da trovare",
+        "Stato": "ToDo",
+        "% Avanz.": 1.0,
+        "Costo Pianificato (€)": 780.0,
+        "Costo Effettivo (€)": 149.0,
+        "Scostamento (€)": 631.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 4.0,
+        "MacroCategoria": "4. Scafo / Carena / Anodi",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Luca Di Rienzo",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 300.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 300.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 5.0,
+        "MacroCategoria": "5. Sicurezza e dotazioni",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Luca Di Rienzo",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 180.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 180.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 6.0,
+        "MacroCategoria": "6. Ormeggio & Logistica",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Scipione / Bruzzone",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 300.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 300.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 7.0,
+        "MacroCategoria": "7. Assicurazioni / Bolli",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Luca Di Rienzo",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 420.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 420.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 8.0,
+        "MacroCategoria": "8. Manodopera / Officina",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Massimo Canavacciuolo",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 420.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 420.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 9.0,
+        "MacroCategoria": "9. Buffer imprevisti (contingency)",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Luca Di Rienzo",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 420.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 420.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 10.0,
+        "MacroCategoria": "10. Extra / Upgrade estetici",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Luca Di Rienzo",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 0.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 0.0,
+        "Note/Link": null
+      },
+      {
+        "WBS": 11.0,
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Sotto-Motivo": null,
+        "Inizio": "2025-12-01 00:00:00",
+        "Fine": "2026-04-30 00:00:00",
+        "Durata (gg)": 151.0,
+        "Responsabile": "Luca Di Rienzo",
+        "Stato": "ToDo",
+        "% Avanz.": 0.0,
+        "Costo Pianificato (€)": 600.0,
+        "Costo Effettivo (€)": null,
+        "Scostamento (€)": 600.0,
+        "Note/Link": null
+      }
+    ],
+    "SAL Dashboard": [
+      {
+        "MacroCategoria": "1. Motori / Refit",
+        "Budget Suggerito (€)": 2580.0,
+        "Costo Effettivo (€)": 300.0,
+        "Scostamento (€)": 2280.0,
+        "% Avanzamento medio": 1.0,
+        "Semaforo": "🟢"
+      },
+      {
+        "MacroCategoria": "2. Trasmissione / Bravo 3X (opzionale)",
+        "Budget Suggerito (€)": 0.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 0.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      },
+      {
+        "MacroCategoria": "3. Impianti di bordo",
+        "Budget Suggerito (€)": 780.0,
+        "Costo Effettivo (€)": 149.0,
+        "Scostamento (€)": 631.0,
+        "% Avanzamento medio": 1.0,
+        "Semaforo": "🟢"
+      },
+      {
+        "MacroCategoria": "4. Scafo / Carena / Anodi",
+        "Budget Suggerito (€)": 300.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 300.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      },
+      {
+        "MacroCategoria": "5. Sicurezza e dotazioni",
+        "Budget Suggerito (€)": 180.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 180.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      },
+      {
+        "MacroCategoria": "6. Ormeggio & Logistica",
+        "Budget Suggerito (€)": 300.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 300.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      },
+      {
+        "MacroCategoria": "7. Assicurazioni / Bolli",
+        "Budget Suggerito (€)": 420.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 420.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      },
+      {
+        "MacroCategoria": "8. Manodopera / Officina",
+        "Budget Suggerito (€)": 420.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 420.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      },
+      {
+        "MacroCategoria": "9. Buffer imprevisti (contingency)",
+        "Budget Suggerito (€)": 420.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 420.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      },
+      {
+        "MacroCategoria": "10. Extra / Upgrade estetici",
+        "Budget Suggerito (€)": 0.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 0.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      },
+      {
+        "MacroCategoria": "11. Carrozzeria / Superfici esterne",
+        "Budget Suggerito (€)": 600.0,
+        "Costo Effettivo (€)": 0.0,
+        "Scostamento (€)": 600.0,
+        "% Avanzamento medio": 0.0,
+        "Semaforo": "🔴"
+      }
+    ],
+    "CONTO ECONOMICO": [
+      {
+        "DATA": "2025-11-01 00:00:00",
+        "IMPORTO": 50.0,
+        "A CHI": "Massimo Canavacciuolo",
+        "Macrocategoria": "1. Motori / Refit",
+        "WBS": "1.1 Tagliando annuale (kit 100h, 2 motori)",
+        "CHE ABBAIMO FATTO": "RACOR FILTRI SERBATOIO",
+        "Motori/Refit": "1. Motori / Refit"
+      },
+      {
+        "DATA": "2025-11-16 00:00:00",
+        "IMPORTO": 100.0,
+        "A CHI": "Massimo Canavacciuolo",
+        "Macrocategoria": "1. Motori / Refit",
+        "WBS": "1.1 Tagliando annuale (kit 100h, 2 motori)",
+        "CHE ABBAIMO FATTO": "CERCATO DI FAR PARTIRE I MOTORI PER IL LAVAGGIO",
+        "Motori/Refit": "2. Trasmissione / Bravo 3X (opzionale)"
+      },
+      {
+        "DATA": "2025-12-08 00:00:00",
+        "IMPORTO": 150.0,
+        "A CHI": "Massimo Canavacciuolo",
+        "Macrocategoria": "1. Motori / Refit",
+        "WBS": "1.1 Tagliando annuale (kit 100h, 2 motori)",
+        "CHE ABBAIMO FATTO": "PARTITI I MOTORI, FATTO LAVAGGIO, SMONTAGGIO MOTORI",
+        "Motori/Refit": "3. Impianti di bordo"
+      },
+      {
+        "DATA": "2025-12-08 00:00:00",
+        "IMPORTO": 149.0,
+        "A CHI": null,
+        "Macrocategoria": "3. Impianti di bordo",
+        "WBS": "3.1 Batterie/cavi/staccabatterie (se usurati)",
+        "CHE ABBAIMO FATTO": "Batteria bosh 100ah per i servizzi",
+        "Motori/Refit": "4. Scafo / Carena / Anodi"
+      },
+      {
+        "DATA": null,
+        "IMPORTO": null,
+        "A CHI": null,
+        "Macrocategoria": null,
+        "WBS": null,
+        "CHE ABBAIMO FATTO": null,
+        "Motori/Refit": "5. Sicurezza e dotazioni"
+      },
+      {
+        "DATA": null,
+        "IMPORTO": null,
+        "A CHI": null,
+        "Macrocategoria": null,
+        "WBS": null,
+        "CHE ABBAIMO FATTO": null,
+        "Motori/Refit": "6. Ormeggio & Logistica"
+      },
+      {
+        "DATA": null,
+        "IMPORTO": null,
+        "A CHI": null,
+        "Macrocategoria": null,
+        "WBS": null,
+        "CHE ABBAIMO FATTO": null,
+        "Motori/Refit": "7. Assicurazioni / Bolli"
+      },
+      {
+        "DATA": null,
+        "IMPORTO": null,
+        "A CHI": null,
+        "Macrocategoria": null,
+        "WBS": null,
+        "CHE ABBAIMO FATTO": null,
+        "Motori/Refit": "8. Manodopera / Officina"
+      },
+      {
+        "DATA": null,
+        "IMPORTO": null,
+        "A CHI": null,
+        "Macrocategoria": null,
+        "WBS": null,
+        "CHE ABBAIMO FATTO": null,
+        "Motori/Refit": "9. Buffer imprevisti (contingency)"
+      },
+      {
+        "DATA": null,
+        "IMPORTO": null,
+        "A CHI": null,
+        "Macrocategoria": null,
+        "WBS": null,
+        "CHE ABBAIMO FATTO": null,
+        "Motori/Refit": "10. Extra / Upgrade estetici"
+      },
+      {
+        "DATA": null,
+        "IMPORTO": null,
+        "A CHI": null,
+        "Macrocategoria": null,
+        "WBS": null,
+        "CHE ABBAIMO FATTO": null,
+        "Motori/Refit": "11. Carrozzeria / Superfici esterne"
+      },
+      {
+        "DATA": null,
+        "IMPORTO": null,
+        "A CHI": null,
+        "Macrocategoria": 1.1,
+        "WBS": "1. Motori / Refit",
+        "CHE ABBAIMO FATTO": "1.1 Tagliando annuale (kit 100h, 2 motori)",
+        "Motori/Refit": null
+      }
+    ]
+  }
+}

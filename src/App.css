@@ -588,3 +588,106 @@ input[type="checkbox"] {
     font-size: 16px;
   }
 }
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0a1628;
+}
+.login-box {
+  background: #1a2744;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 320px;
+}
+.login-box h1 { color: #f5e6c8; margin: 0; }
+.login-box p { color: #8b9dc3; margin: 0.5rem 0 1.5rem; }
+.login-box input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #2a3a5c;
+  border-radius: 8px;
+  background: #0a1628;
+  color: #f5e6c8;
+  box-sizing: border-box;
+}
+.login-box button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.login-box .error { color: #ef4444; margin-top: 0.5rem; }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #f5e6c8;
+  font-size: 1.2rem;
+}
+
+.error-banner {
+  background: #7f1d1d;
+  color: #fca5a5;
+  padding: 0.75rem;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+header {
+  background: #1a2744;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+header h1 { color: #f5e6c8; margin: 0; font-size: 1.2rem; }
+header nav { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+header nav button {
+  background: transparent;
+  color: #8b9dc3;
+  border: 1px solid #2a3a5c;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+header nav button.active { background: #3b82f6; color: white; border-color: #3b82f6; }
+
+main { padding: 1rem; max-width: 1200px; margin: 0 auto; }
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.stat-card {
+  background: #1a2744;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #2a3a5c;
+}
+.stat-card h3 { color: #8b9dc3; margin: 0 0 0.5rem; font-size: 0.9rem; }
+.stat-card .big { color: #f5e6c8; font-size: 2rem; margin: 0; font-weight: bold; }
+.progress-bar { background: #2a3a5c; height: 8px; border-radius: 4px; margin-top: 0.5rem; }
+.progress { background: #3b82f6; height: 100%; border-radius: 4px; }
+
+.alerts { margin: 1.5rem 0; }
+.alerts h3 { color: #f59e0b; }
+.alert-item { background: #451a03; padding: 0.5rem; margin: 0.25rem 0; border-radius: 6px; color: #fbbf24; }
+
+.section { padding: 1rem; }
+.section h2 { color: #f5e6c8; }
