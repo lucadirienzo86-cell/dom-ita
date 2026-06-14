@@ -3,3 +3,9 @@ dist
 .env.local
 .env
 .env.*.local
+.ruvector.db
+.venv
+dom-ita-api/node_modules
+dom-ita-api/.env
+*.db
+.DS_Store
