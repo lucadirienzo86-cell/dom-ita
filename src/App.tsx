@@ -1,92 +1,236 @@
-import { useState, useEffect } from 'react';
-import * as sb from './supabase';
+import { useState, useEffect, useRef } from 'react';
+import { AppData } from './types';
+import { loadData, saveData, exportDataJSON, importDataJSON, defaultData } from './store';
+import Dashboard from './sections/Dashboard';
+import NavigationSection from './sections/NavigationSection';
+import InsurancesSection from './sections/InsurancesSection';
+import FuelSection from './sections/FuelSection';
+import ExpensesSection from './sections/ExpensesSection';
+import MooringSection from './sections/MooringSection';
+import RefitSection from './sections/RefitSection';
 import './App.css';
 
-interface DashboardData {
-  year: number;
-  navigation_hours: number;
-  fuel_cost: number;
-  fuel_liters: number;
-  total_expenses: number;
-  refit_budget: number;
-  refit_spent: number;
-  insurance_expiries: any[];
-  mooring_due: any[];
-}
+type TabId = 'dashboard' | 'navigation' | 'insurances' | 'fuel' | 'expenses' | 'mooring' | 'refit';
 
-function App() {
-  const [token, setToken] = useState(localStorage.getItem('domita_token') || '');
-  const [dashboard, setDashboard] = useState<DashboardData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
-  const [activeTab, setActiveTab] = useState('dashboard');
+const TABS: { id: TabId; label: string }[] = [
+  { id: 'dashboard', label: '⚓ Dashboard' },
+  { id: 'navigation', label: '🧭 Navigazione' },
+  { id: 'insurances', label: '🛡️ Assicurazioni' },
+  { id: 'fuel', label: '⛽ Carburante' },
+  { id: 'expenses', label: '💶 Spese' },
+  { id: 'mooring', label: '🏗️ Pontile' },
+  { id: 'refit', label: '🔧 Refit' },
+];
 
-  useEffect(() => { if (token) loadDashboard(); }, [token]);
+export default function App() {
+  const [data, setData] = useState<AppData>(loadData);
+  const [activeTab, setActiveTab] = useState<TabId>('dashboard');
+  const [showSettings, setShowSettings] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const importRef = useRef<HTMLInputElement>(null);
 
-  async function loadDashboard() {
-    try { setLoading(true); const d = await sb.getDashboard(); setDashboard(d); }
-    catch (e: any) { setError(e.message); }
-    finally { setLoading(false); }
+  // Save on every change
+  useEffect(() => {
+    saveData(data);
+  }, [data]);
+
+  function handleExport() {
+    const json = exportDataJSON(data);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `domita_backup_${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
   }
 
-  async function handleLogin(e: React.FormEvent) {
-    e.preventDefault();
-    const form = e.target as HTMLFormElement;
-    const u = (form.elements.namedItem('username') as HTMLInputElement).value;
-    const p = (form.elements.namedItem('password') as HTMLInputElement).value;
-    try { const r = await sb.login(u, p); localStorage.setItem('domita_token', r.token); setToken(r.token); }
-    catch (e: any) { setError(e.message); }
+  function handleImport(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      const result = importDataJSON(reader.result as string);
+      if (result) {
+        if (confirm('Questo sostituirà tutti i dati attuali. Continuare?')) {
+          setData(result);
+          setShowSettings(false);
+        }
+      } else {
+        alert('File non valido.');
+      }
+    };
+    reader.readAsText(file);
+    e.target.value = '';
   }
 
-  if (!token) {
-    return (
-      <div className="login-page"><div className="login-box">
-        <h1>⚓ DOM.ITA</h1><p>Gestione Barca</p>
-        <form onSubmit={handleLogin}>
-          <input name="username" placeholder="Username" required />
-          <input name="password" type="password" placeholder="Password" required />
-          <button type="submit">Accedi</button>
-        </form>
-        {error && <p className="error">{error}</p>}
-      </div></div>
-    );
+  function handleReset() {
+    if (confirm('Eliminare TUTTI i dati? Questa operazione è irreversibile.')) {
+      setData({ ...defaultData });
+      setShowSettings(false);
+    }
   }
-  if (loading) return <div className="loading">Caricamento...</div>;
+
+  // Import dati Excel (predefined JSON bundled in public/)
+  async function handleImportExcel() {
+    try {
+      const resp = await fetch('/dati/imported_data.json');
+      if (!resp.ok) { alert('File dati/excel non trovato.'); return; }
+      const json = await resp.json();
+      // This is the raw Excel data — we store it as refit items
+      // The imported_data.json has a specific structure from the Excel files
+      // We parse it and create refit items
+      const items: AppData['refitItems'] = [];
+      const categories: AppData['budgetCategories'] = [];
+      let budgetTotal = 6000;
+
+      // Parse WBS_Budget_DOMITA_items
+      if (json['WBS_Budget_DOMITA_items.xlsx']) {
+        const sheets = json['WBS_Budget_DOMITA_items.xlsx'];
+        Object.values(sheets).forEach((rows: any) => {
+          if (Array.isArray(rows)) {
+            rows.forEach((row: any) => {
+              const price = parseExcelNumber(row['Prezzo unit. (€)']);
+              const total = parseExcelNumber(row['Totale riga (€)']);
+              const qty = parseFloat(row['Q.tà']) || 1;
+              if (row['Descrizione'] && (price > 0 || total > 0)) {
+                items.push({
+                  id: Math.random().toString(36).slice(2, 11),
+                  wbs: String(row['WBS'] || ''),
+                  category: String(row['Categoria'] || 'Altro'),
+                  description: String(row['Descrizione'] || ''),
+                  quantity: qty,
+                  unitPrice: price,
+                  totalPrice: total > 0 ? total : price * qty,
+                  supplier: '',
+                  status: 'ToDo',
+                  notes: String(row['Note'] || ''),
+                });
+              }
+            });
+          }
+        });
+      }
+
+      // Parse WBS_Sintesi for budget categories
+      if (json['WBS_Sintesi_DOMITA.xlsx']) {
+        const sheets = json['WBS_Sintesi_DOMITA.xlsx'];
+        Object.values(sheets).forEach((rows: any) => {
+          if (Array.isArray(rows)) {
+            rows.forEach((row: any) => {
+              if (row['Macro-categoria'] || row['Categoria']) {
+                const budget = parseExcelNumber(row['Budget suggerito']) || parseExcelNumber(row['Budget']);
+                const priority = row['Priorità'] || row['Priorita'];
+                const contingency = parseFloat(row['Contingenza']) || 0;
+                categories.push({
+                  id: Math.random().toString(36).slice(2, 11),
+                  name: String(row['Macro-categoria'] || row['Categoria'] || ''),
+                  budgetSuggested: budget,
+                  contingencyPercent: contingency,
+                  priority: priority === 'MUST' ? 'MUST' : priority === 'NICE' ? 'NICE' : 'OPZ',
+                  spent: 0,
+                });
+              }
+            });
+          }
+        });
+      }
+
+      if (items.length === 0 && categories.length === 0) {
+        alert('Nessun dato utile trovato nel file Excel importato.');
+        return;
+      }
+
+      if (confirm(`Importare ${items.length} voci refit e ${categories.length} categorie budget? Verranno aggiunte ai dati esistenti.`)) {
+        setData(prev => ({
+          ...prev,
+          refitItems: [...prev.refitItems, ...items],
+          budgetCategories: categories.length > 0 ? [...prev.budgetCategories, ...categories] : prev.budgetCategories,
+          budgetTotal: budgetTotal,
+        }));
+        setShowSettings(false);
+        setActiveTab('refit');
+      }
+    } catch (err) {
+      alert('Errore importazione: ' + (err as Error).message);
+    }
+  }
 
   return (
-    <div className="app">
-      <header>
-        <h1>⚓ DOM.ITA</h1>
-        <nav>
-          {['dashboard','navigation','insurances','fuel','expenses','mooring','refit'].map(t => (
-            <button key={t} className={activeTab===t?'active':''} onClick={()=>setActiveTab(t)}>{t}</button>
+    <div style={{ minHeight: '100vh' }}>
+      {/* Header */}
+      <header className="header">
+        <div className="header-title">
+          <span className="icon">⚓</span>
+          <span>DOM.ITA</span>
+        </div>
+        <nav className="tabs">
+          {TABS.map(t => (
+            <button
+              key={t.id}
+              className={`tab ${activeTab === t.id ? 'active' : ''}`}
+              onClick={() => setActiveTab(t.id)}
+            >
+              {t.label}
+            </button>
           ))}
-          <button onClick={()=>{localStorage.removeItem('domita_token');setToken('');}}>Logout</button>
+          <button className="tab" onClick={() => setShowSettings(s => !s)}>⚙️</button>
         </nav>
       </header>
-      <main>
-        {error && <div className="error-banner">{error}</div>}
-        {activeTab==='dashboard' && dashboard && (
-          <div className="dashboard">
-            <h2>Dashboard {dashboard.year}</h2>
-            <div className="stats-grid">
-              <div className="stat-card"><h3>Ore Navigazione</h3><p className="big">{dashboard.navigation_hours.toFixed(1)}h</p></div>
-              <div className="stat-card"><h3>Spesa Carburante</h3><p className="big">€{dashboard.fuel_cost.toFixed(2)}</p></div>
-              <div className="stat-card"><h3>Spese Extra</h3><p className="big">€{dashboard.total_expenses.toFixed(2)}</p></div>
-              <div className="stat-card"><h3>Refit Budget</h3><p className="big">€{dashboard.refit_spent.toFixed(0)} / €{dashboard.refit_budget.toFixed(0)}</p>
-                <div className="progress-bar"><div className="progress" style={{width:`${dashboard.refit_budget?(dashboard.refit_spent/dashboard.refit_budget*100).toFixed(0):0}%`}}/></div>
-              </div>
-            </div>
-            {dashboard.insurance_expiries.length>0 && (
-              <div className="alerts"><h3>⚠️ Scadenze (30gg)</h3>
-                {dashboard.insurance_expiries.map((i:any,n:number)=><div key={n} className="alert-item">{i.name} — {i.expiry_date}</div>)}
-              </div>
-            )}
+
+      {/* Settings dropdown */}
+      {showSettings && (
+        <div style={{ background: 'var(--bg-card)', borderBottom: '1px solid var(--border)', padding: '1rem' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
+            <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginRight: '0.5rem' }}>Dati:</span>
+            <button className="btn btn-ghost btn-sm" onClick={handleExport}>📤 Export JSON</button>
+            <button className="btn btn-ghost btn-sm" onClick={() => importRef.current?.click()}>📥 Import JSON</button>
+            <button className="btn btn-ghost btn-sm" onClick={handleImportExcel}>📊 Importa Excel Barca</button>
+            <button className="btn btn-danger btn-sm" onClick={handleReset}>🗑️ Reset</button>
+            <input ref={importRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleImport} />
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginLeft: 'auto' }}>
+              v3.0 — Solo localStorage — Nessun server
+            </span>
           </div>
-        )}
-        {activeTab!=='dashboard' && <div className="section"><h2>{activeTab}</h2><p>Caricamento dati da Supabase...</p></div>}
+        </div>
+      )}
+
+      {/* Main content */}
+      <main className="main">
+        {activeTab === 'dashboard' && <Dashboard data={data} />}
+        {activeTab === 'navigation' && <NavigationSection data={data} onChange={setData} />}
+        {activeTab === 'insurances' && <InsurancesSection data={data} onChange={setData} />}
+        {activeTab === 'fuel' && <FuelSection data={data} onChange={setData} />}
+        {activeTab === 'expenses' && <ExpensesSection data={data} onChange={setData} />}
+        {activeTab === 'mooring' && <MooringSection data={data} onChange={setData} />}
+        {activeTab === 'refit' && <RefitSection data={data} onChange={setData} />}
       </main>
     </div>
   );
 }
-export default App;
+
+// Parse Excel serial numbers or time-strings to actual numbers
+function parseExcelNumber(val: any): number {
+  if (typeof val === 'number') return isFinite(val) ? val : 0;
+  if (!val) return 0;
+  const s = String(val);
+  // Handle "X days, HH:MM:SS" format (Excel serial dates stored as prices)
+  if (s.includes('day') || s.includes('days')) {
+    const daysMatch = s.match(/(\d+)\s*days?/);
+    const timeMatch = s.match(/(\d{1,2}):(\d{2}):(\d{2})/);
+    if (daysMatch && timeMatch) {
+      const days = parseInt(daysMatch[1]);
+      const h = parseInt(timeMatch[1]);
+      const m = parseInt(timeMatch[2]);
+      return days * 24 + h + m / 100;
+    }
+    return 0;
+  }
+  // Handle plain time "HH:MM:SS" — price encoded as HH.MM
+  if (/^\d{1,2}:\d{2}:\d{2}$/.test(s)) {
+    const parts = s.split(':').map(Number);
+    return parts[0] + parts[1] / 100;
+  }
+  const n = parseFloat(s.replace(',', '.').replace(/[^0-9.\-]/g, ''));
+  return isFinite(n) ? n : 0;
+}

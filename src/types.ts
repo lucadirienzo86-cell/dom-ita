@@ -1,18 +1,20 @@
 export interface NavigationEntry {
   id: string;
   date: string;
-  hours: number;
-  motorHours?: number;
-  sailHours?: number;
+  hoursMotor: number;
+  hoursSail: number;
+  route: string;
   notes: string;
 }
 
 export interface Insurance {
   id: string;
   name: string;
-  expiryDate: string;
   company: string;
-  amount: number;
+  policyNumber: string;
+  startDate: string;
+  expiryDate: string;
+  premium: number;
   notes: string;
 }
 
@@ -21,7 +23,7 @@ export interface FuelEntry {
   date: string;
   liters: number;
   pricePerLiter: number;
-  totalPrice: number;
+  totalCost: number;
   motorHours: number;
   notes: string;
 }
@@ -37,12 +39,12 @@ export interface ExpenseEntry {
 
 export interface MooringPayment {
   id: string;
-  date: string;
   port: string;
   period: string;
   amount: number;
-  expiryDate: string;
+  dueDate: string;
   paid: boolean;
+  notes: string;
 }
 
 export interface BudgetCategory {
@@ -50,7 +52,6 @@ export interface BudgetCategory {
   name: string;
   budgetSuggested: number;
   contingencyPercent: number;
-  budgetPlusContingency: number;
   priority: 'MUST' | 'NICE' | 'OPZ';
   spent: number;
 }
@@ -63,9 +64,19 @@ export interface RefitItem {
   quantity: number;
   unitPrice: number;
   totalPrice: number;
-  notes: string;
-  supplier?: string;
+  supplier: string;
   status: 'ToDo' | 'InCorso' | 'Sospeso' | 'Fatto';
+  notes: string;
+}
+
+export interface RefitPayment {
+  id: string;
+  date: string;
+  recipient: string;
+  description: string;
+  amount: number;
+  category: string;
+  notes: string;
 }
 
 export interface AppData {
@@ -76,5 +87,6 @@ export interface AppData {
   mooring: MooringPayment[];
   budgetCategories: BudgetCategory[];
   refitItems: RefitItem[];
+  refitPayments: RefitPayment[];
   budgetTotal: number;
 }
