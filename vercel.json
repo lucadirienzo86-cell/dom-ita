@@ -2,8 +2,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "routes": [
-    { "src": "/dati/(.*)", "dest": "/dati/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/dati/(.*)", "destination": "/dati/$1" },
+    { "source": "/favicon.svg", "destination": "/favicon.svg" },
+    { "source": "/logo.jpeg", "destination": "/logo.jpeg" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
